@@ -5,7 +5,7 @@ export const wedding = {
   groom: {
     name: "Revanth",
     parents: "",
-    place: "Tuvarimon, Madurai",
+    place: "Thuvariman, Madurai",
     quote: "Rooted in kindness, guided by hope, ready for every tomorrow.",
   },
 
@@ -17,7 +17,7 @@ export const wedding = {
   },
 
   dateRange: "October 25, 2026",
-  cities: "Tuvarimon, Madurai",
+  cities: "Thuvariman, Madurai",
 
   // Drives the countdown to Muhurtham at 10:30 AM on Sunday, October 25, 2026
   weddingDateISO: "2026-10-25T10:30:00+05:30",
@@ -27,13 +27,13 @@ export const wedding = {
       tag: "The Sacred Muhurtham",
       title: "Wedding Ceremony",
       venue: "Sivan Kovil",
-      address: "Tuvarimon, Madurai, Tamil Nadu",
-      location: "Tuvarimon, Madurai",
+      address: "Thuvariman, Madurai, Tamil Nadu",
+      location: "Thuvariman, Madurai",
       date: "October 25, 2026",
       day: "Sunday",
       time: "Muhurtham: 10:30 AM",
-      mapUrl: "https://www.google.com/maps/search/?api=1&query=Sivan+Kovil+Tuvarimon+Madurai",
-      mapQuery: "Sivan Kovil, Tuvarimon, Madurai, Tamil Nadu",
+      mapUrl: "https://maps.app.goo.gl/DziHb97ukevE4RiX6?g_st=ac",Thuvariman
+      mapQuery: "Sivan Kovil, Thuvariman, Madurai, Tamil Nadu",
     },
   ],
 
