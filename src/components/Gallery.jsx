@@ -5,7 +5,7 @@ import Section from "./Section";
 import OrnateDivider from "./OrnateDivider";
 import { wedding } from "../utils/weddingData";
 
-const palette = ["#7c1017", "#9c1a1a", "#D4AF37", "#5a0c11", "#B7860B", "#3d0509"];
+const palette = ["#6E0E14", "#8E1721", "#D4AF37", "#520B15", "#A9862A", "#0C0304"];
 
 function GalleryTile({ id, seed }) {
   const c1 = palette[seed % palette.length];
@@ -26,7 +26,7 @@ function GalleryTile({ id, seed }) {
         y="158"
         textAnchor="middle"
         fontSize="20"
-        fill="#F4D793"
+        fill="#F0DAA0"
         fontFamily="Cinzel, serif"
         opacity="0.8"
       >

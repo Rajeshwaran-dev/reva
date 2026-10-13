@@ -23,8 +23,8 @@ function CouplePortrait() {
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 1.05, ease: [0.2, 0.7, 0.3, 1] }}
-      className="relative mx-auto w-[13.5rem] sm:w-[16rem] md:w-[18rem] lg:w-[20rem]"
-      style={{ maxWidth: "calc(44vh * 0.71)" }}
+      className="relative mx-auto w-[14rem] sm:w-[17rem] md:w-[19rem] lg:w-[22rem]"
+      style={{ maxWidth: "min(22rem, 40vh)" }}
     >
       {/* rotating mandala + breathing halo, centred on the arch */}
       <div className="pointer-events-none absolute left-1/2 top-[36%] aspect-square w-[132%] -translate-x-1/2 -translate-y-1/2 mandala-ring animate-spin-slow opacity-[0.18]" />
@@ -40,7 +40,7 @@ function CouplePortrait() {
       <div
         className="arch-top absolute left-1/2 top-0 h-[88%] w-[88%] -translate-x-1/2 overflow-hidden border-2 border-gold/60"
         style={{
-          background: "linear-gradient(180deg,#540B14 0%,#360811 52%,#1B0508 100%)",
+          background: "linear-gradient(180deg,#6E0E14 0%,#33070E 52%,#1B0508 100%)",
           boxShadow:
             "0 0 38px rgba(212,175,55,0.22), 0 26px 60px -20px rgba(0,0,0,0.85), inset 0 0 52px rgba(0,0,0,0.6)",
         }}
@@ -79,10 +79,10 @@ function CouplePortrait() {
 
       {/* the couple */}
       <motion.img
-        src="/nandha.png"
-        alt={`Caricature of ${wedding.groom.name} and ${wedding.bride.name}`}
-        width={723}
-        height={1024}
+        src="/hero.png"
+        alt={`Portrait of ${wedding.groom.name} and ${wedding.bride.name}`}
+        width={1203}
+        height={1308}
         loading="eager"
         decoding="async"
         draggable={false}

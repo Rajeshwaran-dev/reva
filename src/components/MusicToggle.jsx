@@ -19,7 +19,7 @@ export default function MusicToggle({ className = "" }) {
       style={{
         background: "rgba(14,3,5,0.7)",
         backdropFilter: "blur(12px)",
-        boxShadow: "0 8px 24px -8px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,236,190,0.14)",
+        boxShadow: "0 8px 24px -8px rgba(0,0,0,0.8), inset 0 1px 0 rgba(252,244,220,0.14)",
       }}
     >
       {musicOn ? (

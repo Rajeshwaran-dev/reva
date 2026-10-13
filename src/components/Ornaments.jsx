@@ -11,7 +11,7 @@ export function GoldGradient({ id, vertical = true }) {
   return (
     <linearGradient id={id} x1="0" y1="0" x2={vertical ? "0" : "1"} y2={vertical ? "1" : "0"}>
       <stop offset="0%" stopColor="#FCF4DC" />
-      <stop offset="30%" stopColor="#E8CE83" />
+      <stop offset="30%" stopColor="#F0DAA0" />
       <stop offset="58%" stopColor="#D4AF37" />
       <stop offset="82%" stopColor="#A9862A" />
       <stop offset="100%" stopColor="#8A6A1F" />
@@ -265,7 +265,7 @@ export function SealMedallion({ size = 150, className = "", children }) {
         <radialGradient id={`${gid}-disc`} cx="35%" cy="28%" r="80%">
           <stop offset="0%" stopColor="#FBEFC6" />
           <stop offset="42%" stopColor="#E0BE5A" />
-          <stop offset="78%" stopColor="#B8912C" />
+          <stop offset="78%" stopColor="#A9862A" />
           <stop offset="100%" stopColor="#8A6A1F" />
         </radialGradient>
       </defs>

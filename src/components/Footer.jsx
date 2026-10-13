@@ -1,14 +1,8 @@
 import { motion } from "framer-motion";
-import { FiInstagram, FiFacebook, FiYoutube, FiMapPin, FiArrowUp } from "react-icons/fi";
+import { FiMapPin, FiArrowUp } from "react-icons/fi";
 import Section from "./Section";
 import { Kalasam, Lotus, OrnateRule } from "./Ornaments";
 import { wedding } from "../utils/weddingData";
-
-const socials = [
-  { Icon: FiInstagram, label: "Instagram", href: "#" },
-  { Icon: FiFacebook, label: "Facebook", href: "#" },
-  { Icon: FiYoutube, label: "YouTube", href: "#" },
-];
 
 const fade = (delay = 0) => ({
   initial: { opacity: 0, y: 18 },
@@ -71,20 +65,6 @@ export default function Footer({ sectionRef }) {
           <p className="font-cinzel text-[9px] tracking-[0.3em] text-gold sm:text-[11px]">
             {wedding.hashtag}
           </p>
-        </motion.div>
-
-        {/* socials */}
-        <motion.div {...fade(0.4)} className="mt-6 flex items-center justify-center gap-3.5">
-          {socials.map(({ Icon, label, href }) => (
-            <a
-              key={label}
-              href={href}
-              aria-label={label}
-              className="flex h-9 w-9 items-center justify-center rounded-full border border-gold/35 bg-black/30 text-gold-light/85 transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/80 hover:bg-gold/12 hover:text-gold-pale"
-            >
-              <Icon size={15} />
-            </a>
-          ))}
         </motion.div>
 
         {/* compliments */}

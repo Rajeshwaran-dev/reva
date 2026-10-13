@@ -51,10 +51,6 @@ export default function Blessings({ sectionRef }) {
       </div>
 
       <div className="blessings-layout">
-        <div className="blessings-parent-column blessings-parent-left">
-          <img src="/parents-1.png" alt="Groom's parents" className="blessings-parent" />
-        </div>
-
         <motion.div
           initial={{ opacity: 0, y: 26 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -102,9 +98,6 @@ export default function Blessings({ sectionRef }) {
           </div>
         </motion.div>
 
-        <div className="blessings-parent-column blessings-parent-right">
-          <img src="/parents-2.png" alt="Bride's parents" className="blessings-parent" />
-        </div>
       </div>
     </Section>
   );

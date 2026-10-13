@@ -75,7 +75,7 @@ function Gopuram({ cx, baseY, width, height, tiers = 7, topRatio = 0.34 }) {
             v${-height * 0.17}
             a${width * 0.11} ${width * 0.11} 0 0 1 ${width * 0.22} 0
             v${height * 0.17} Z`}
-        fill="#120406"
+        fill="#0C0304"
         opacity="0.85"
       />
     </g>
@@ -92,17 +92,17 @@ function Skyline() {
     >
       <defs>
         <linearGradient id="heroFar" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#6C1019" stopOpacity="0.55" />
-          <stop offset="100%" stopColor="#2A060B" stopOpacity="0.9" />
+          <stop offset="0%" stopColor="#6E0E14" stopOpacity="0.55" />
+          <stop offset="100%" stopColor="#1B0508" stopOpacity="0.9" />
         </linearGradient>
         <linearGradient id="heroNear" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#3A080F" />
-          <stop offset="70%" stopColor="#1E0509" />
-          <stop offset="100%" stopColor="#120406" />
+          <stop offset="0%" stopColor="#33070E" />
+          <stop offset="70%" stopColor="#1B0508" />
+          <stop offset="100%" stopColor="#0C0304" />
         </linearGradient>
         <linearGradient id="heroHaze" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#5A0C13" stopOpacity="0" />
-          <stop offset="100%" stopColor="#2A060B" stopOpacity="0.85" />
+          <stop offset="0%" stopColor="#520B15" stopOpacity="0" />
+          <stop offset="100%" stopColor="#1B0508" stopOpacity="0.85" />
         </linearGradient>
       </defs>
 

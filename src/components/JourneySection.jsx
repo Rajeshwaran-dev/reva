@@ -25,8 +25,8 @@ function WeddingCar() {
           <stop offset="100%" stopColor="#C9B693" />
         </linearGradient>
         <linearGradient id="carGlass" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#5E1C24" />
-          <stop offset="100%" stopColor="#2A080D" />
+          <stop offset="0%" stopColor="#6E0E14" />
+          <stop offset="100%" stopColor="#1B0508" />
         </linearGradient>
         <radialGradient id="headBeam" cx="0%" cy="50%" r="100%">
           <stop offset="0%" stopColor="#FFE9A8" stopOpacity="0.85" />
@@ -83,7 +83,7 @@ function WeddingCar() {
               cx={x}
               cy={26 - Math.sin((i / 12) * Math.PI) * 4}
               r={i % 2 ? 3.6 : 4.4}
-              fill={i % 2 ? "#F2C14E" : "#E8862A"}
+              fill={i % 2 ? "#D4AF37" : "#A9862A"}
             />
           );
         })}
@@ -108,7 +108,7 @@ function WeddingCar() {
                 cx={x}
                 cy={y}
                 r={i % 2 ? 2.6 : 3.2}
-                fill={i % 3 === 0 ? "#FFF6E4" : i % 2 ? "#F2C14E" : "#E8862A"}
+                fill={i % 3 === 0 ? "#FFF6E4" : i % 2 ? "#D4AF37" : "#A9862A"}
                 opacity="0.95"
               />
             );
@@ -118,14 +118,14 @@ function WeddingCar() {
 
       {/* bonnet flower cluster */}
       <g>
-        <circle cx="182" cy="52" r="6" fill="#E8862A" />
-        <circle cx="190" cy="49" r="5" fill="#F2C14E" />
-        <circle cx="176" cy="47" r="4.5" fill="#F2C14E" />
+        <circle cx="182" cy="52" r="6" fill="#A9862A" />
+        <circle cx="190" cy="49" r="5" fill="#D4AF37" />
+        <circle cx="176" cy="47" r="4.5" fill="#D4AF37" />
         <circle cx="184" cy="44" r="3.4" fill="#FFF6E4" />
       </g>
 
       {/* trailing ribbons */}
-      <g stroke="#F2C14E" strokeWidth="1.8" fill="none" opacity="0.85">
+      <g stroke="#D4AF37" strokeWidth="1.8" fill="none" opacity="0.85">
         <path d="M12 70c-8 3-14 1-20 5" />
         <path d="M12 74c-9 5-16 4-22 9" />
       </g>
@@ -133,9 +133,9 @@ function WeddingCar() {
       {/* wheels */}
       {[62, 170].map((cx) => (
         <g key={cx}>
-          <circle cx={cx} cy={84} r={16} fill="#1C1C1C" />
+          <circle cx={cx} cy={84} r={16} fill="#0C0304" />
           <circle cx={cx} cy={84} r={9} fill="url(#chrome)" />
-          <circle cx={cx} cy={84} r={3} fill="#3A2A10" />
+          <circle cx={cx} cy={84} r={3} fill="#33070E" />
           {Array.from({ length: 6 }).map((_, i) => (
             <rect
               key={i}
@@ -262,7 +262,7 @@ export default function JourneySection({ sectionRef }) {
         ref={sceneRef}
         className="relative mt-8 h-60 w-full overflow-hidden rounded-2xl border border-gold/25 sm:h-72"
         style={{
-          background: "linear-gradient(180deg,#3B0810 0%,#2A060C 45%,#1B0508 100%)",
+          background: "linear-gradient(180deg,#33070E 0%,#1B0508 45%,#1B0508 100%)",
           boxShadow: "inset 0 0 60px rgba(0,0,0,0.6), 0 24px 60px -26px rgba(0,0,0,0.8)",
         }}
       >
@@ -287,7 +287,7 @@ export default function JourneySection({ sectionRef }) {
           <div
             className="h-full w-full rounded-full"
             style={{
-              background: "radial-gradient(circle at 35% 30%, #FFF6E4, #E8CE83 60%, #B8912C)",
+              background: "radial-gradient(circle at 35% 30%, #FFF6E4, #F0DAA0 60%, #A9862A)",
               boxShadow: "0 0 26px rgba(240,218,160,0.55)",
             }}
           />
@@ -325,10 +325,10 @@ export default function JourneySection({ sectionRef }) {
 
         {/* near treeline */}
         <div className="absolute bottom-[68px] left-0 w-full text-maroon-deep">
-          <Palm className="absolute bottom-0 left-[6%] text-[#22060B]" size={64} />
-          <Palm className="absolute bottom-0 left-[16%] text-[#1C050A]" size={48} flip />
-          <Palm className="absolute bottom-0 right-[10%] text-[#22060B]" size={70} flip />
-          <Palm className="absolute bottom-0 right-[22%] text-[#1C050A]" size={46} />
+          <Palm className="absolute bottom-0 left-[6%] text-[#33070E]" size={64} />
+          <Palm className="absolute bottom-0 left-[16%] text-[#0C0304]" size={48} flip />
+          <Palm className="absolute bottom-0 right-[10%] text-[#33070E]" size={70} flip />
+          <Palm className="absolute bottom-0 right-[22%] text-[#0C0304]" size={46} />
         </div>
 
         {/* roadside glow */}
@@ -343,7 +343,7 @@ export default function JourneySection({ sectionRef }) {
         <div
           className="absolute bottom-0 left-0 h-16 w-full"
           style={{
-            background: "linear-gradient(180deg,#2A2E38 0%,#1A1D24 55%,#101318 100%)",
+            background: "linear-gradient(180deg,#6E0E14 0%,#33070E 55%,#0C0304 100%)",
             borderTop: "1px solid rgba(212,175,55,0.45)",
           }}
         >
@@ -378,7 +378,7 @@ export default function JourneySection({ sectionRef }) {
             className="absolute h-2 w-2 rounded-full"
             style={{
               left: `${8 + i * 13}%`,
-              background: i % 2 ? "#F2C14E" : "#E8862A",
+              background: i % 2 ? "#D4AF37" : "#A9862A",
               opacity: 0.55,
             }}
             animate={{ y: [-20, 200], x: [0, i % 2 ? 30 : -30], opacity: [0, 0.6, 0] }}
@@ -396,8 +396,8 @@ export default function JourneySection({ sectionRef }) {
         transition={{ duration: 0.8, delay: 0.15 }}
         className="mx-auto mt-9 max-w-xl text-center font-cormorant text-base italic leading-relaxed text-ivory/70 sm:text-lg"
       >
-        Every road we&rsquo;ve travelled &mdash; separately and together &mdash; has led us here, to
-        a beginning wrapped in flowers, laughter, and love.
+        Two paths meet, two families gather, and a lifetime of shared memories begins with joy,
+        trust, and love.
       </motion.p>
     </Section>
   );

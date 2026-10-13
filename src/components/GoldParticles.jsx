@@ -40,7 +40,7 @@ export default function GoldParticles({ count = 24, className = "" }) {
             bottom: -12,
             background: p.sparkle
               ? "radial-gradient(circle, #FFF6E4 0%, rgba(240,218,160,0.7) 55%, transparent 100%)"
-              : "radial-gradient(circle, rgba(255,236,190,0.9) 0%, rgba(212,175,55,0.42) 60%, transparent 100%)",
+              : "radial-gradient(circle, rgba(252,244,220,0.9) 0%, rgba(212,175,55,0.42) 60%, transparent 100%)",
             boxShadow: p.sparkle
               ? "0 0 7px 1px rgba(255,246,228,0.65)"
               : "0 0 12px 3px rgba(212,175,55,0.35)",

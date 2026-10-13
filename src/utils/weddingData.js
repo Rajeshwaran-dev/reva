@@ -1,50 +1,44 @@
 export const wedding = {
-  // Derived from the couple's names — change freely if you use a different tag.
-  hashtag: "#Nandhawedsnandhini",
+  // Derived from the couple's names
+  hashtag: "#RevanthwedsMahalakshmi",
 
   groom: {
-    name: "Nandha Kumar",
-    // TODO: add the groom's parents, e.g. "Son of Mr. ____ & Mrs. ____"
+    name: "Revanth",
     parents: "",
-    // TODO: add the groom's home town, e.g. "Madurai, Tamil Nadu"
-    place: "",
-    quote: '"A heart full of dreams, a soul full of love"',
+    place: "Tuvarimon, Madurai",
+    quote: "Rooted in kindness, guided by hope, ready for every tomorrow.",
   },
 
   bride: {
-    name: "Ega Nandhini",
-    // TODO: add the bride's parents, e.g. "Daughter of Mr. ____ & Mrs. ____"
+    name: "Maha Lakshmi",
     parents: "",
-    // TODO: add the bride's home town
-    place: "",
-    quote: '"Graceful, radiant, and endlessly kind"',
+    place: "Madurai, Tamil Nadu",
+    quote: "A joyful spirit, a gentle heart, and a light that feels like home.",
   },
 
-  dateRange: "September 13, 2026",
-  cities: "Madurai, Tamil Nadu",
+  dateRange: "October 25, 2026",
+  cities: "Tuvarimon, Madurai",
 
-  // Drives the countdown. Time is a placeholder — set the real muhurtham time
-  // here so the countdown lands on the exact hour.
-  weddingDateISO: "2026-09-13T09:00:00+05:30",
+  // Drives the countdown to Muhurtham at 10:30 AM on Sunday, October 25, 2026
+  weddingDateISO: "2026-10-25T10:30:00+05:30",
 
   events: [
     {
-      tag: "The Union",
-      title: "Wedding",
-      venue: "Abirami Kalyana Mahal",
-      address: "15, Thoomatti 2nd Cross Street, New Ramnad Rd",
-      location: "Madurai",
-      date: "September 13, 2026",
-      // Muhurtham time
-      time: "Muhurtham: 9:00 AM to 10:30 AM",
-      // The couple's own Google Maps pin.
-      mapUrl: "https://maps.app.goo.gl/QRh7dnsSaq3z5Ecu6",
-      mapQuery: "Abirami Kalyana Mahal, New Ramnad Rd, Madurai, Tamil Nadu 625009",
+      tag: "The Sacred Muhurtham",
+      title: "Wedding Ceremony",
+      venue: "Sivan Kovil",
+      address: "Tuvarimon, Madurai, Tamil Nadu",
+      location: "Tuvarimon, Madurai",
+      date: "October 25, 2026",
+      day: "Sunday",
+      time: "Muhurtham: 10:30 AM",
+      mapUrl: "https://www.google.com/maps/search/?api=1&query=Sivan+Kovil+Tuvarimon+Madurai",
+      mapQuery: "Sivan Kovil, Tuvarimon, Madurai, Tamil Nadu",
     },
   ],
 
   blessing:
-    "May your love story be filled with timeless devotion, gentle laughter, and the quiet strength of two hearts becoming one.",
+    "May your days be woven with laughter, your home filled with grace, and your hearts grow closer with every passing year.",
 
   gallery: [
     { id: 1, tall: true },
@@ -57,3 +51,4 @@ export const wedding = {
     { id: 8, tall: false },
   ],
 };
+

@@ -24,7 +24,7 @@ export default function PrevNextNav({
         style={{
           background: "rgba(14,3,5,0.72)",
           backdropFilter: "blur(14px)",
-          boxShadow: "0 12px 34px -12px rgba(0,0,0,0.85), inset 0 1px 0 rgba(255,236,190,0.12)",
+          boxShadow: "0 12px 34px -12px rgba(0,0,0,0.85), inset 0 1px 0 rgba(252,244,220,0.12)",
         }}
       >
         <button
