@@ -32,7 +32,7 @@ export const wedding = {
       date: "October 25, 2026",
       day: "Sunday",
       time: "Muhurtham: 10:30 AM",
-      mapUrl: "https://maps.app.goo.gl/DziHb97ukevE4RiX6?g_st=ac",Thuvariman
+      mapUrl: "https://maps.app.goo.gl/DziHb97ukevE4RiX6?g_st=ac",
       mapQuery: "Sivan Kovil, Thuvariman, Madurai, Tamil Nadu",
     },
   ],
@@ -51,4 +51,3 @@ export const wedding = {
     { id: 8, tall: false },
   ],
 };
-
